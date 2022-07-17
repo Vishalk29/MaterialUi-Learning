@@ -30,7 +30,7 @@ const MuiButton = () => {
                 </IconButton>
             </Stack>
             <Stack direction='row'>
-                <ButtonGroup variant="outlined" orientation="vertical">
+                <ButtonGroup variant="outlined" orientation="vertical" size="small" color="secondary" aria-label="alignment button group">
                     <Button onClick={() => alert('clicked')}>Left</Button>
                     <Button>Center</Button>
                     <Button>Right</Button>
