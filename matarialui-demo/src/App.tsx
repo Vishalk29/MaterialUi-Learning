@@ -1,4 +1,5 @@
 import './App.css';
+import MuiCheckBox from './Component/MuiCheckBox';
 import MuiRadio from './Component/MuiRadio';
 // import MuiSelect from './Component/MuiSelect';
 // import MuiButton from './Component/MuiButton';
@@ -12,7 +13,8 @@ function App() {
       {/*<MuiButton />*/}
       {/* <MuiTextField /> */}
       {/* <MuiSelect /> */}
-      <MuiRadio />
+      {/* <MuiRadio /> */}
+      <MuiCheckBox />
     </div>
   );
 }
